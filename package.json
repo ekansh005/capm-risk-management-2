@@ -14,7 +14,11 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
     "@sap/ux-specification": "^1.108.16"
+  },
+  "engines": {
+    "node": "^18"
   },
   "scripts": {
     "start": "cds-serve",
@@ -30,9 +34,6 @@
       "[production]": {
         "db": "hana",
         "auth": "xsuaa"
-      },
-      "db": {
-        "kind": "sql"
       }
     }
   }
