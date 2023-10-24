@@ -15,6 +15,18 @@
       "version": "1.9.3",
       "toolsId": "8619240c-f73e-4ba4-9d35-8d9a7f716bd5"
     },
+    "crossNavigation": {
+      "inbounds": {
+        "Mitigations-display": {
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          },
+          "semanticObject": "Mitigations",
+          "action": "display"
+        }
+      }
+    },
     "dataSources": {
       "mainService": {
         "uri": "/odata/v4/service/risk/",
@@ -136,5 +148,9 @@
       "async": true,
       "id": "app"
     }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "cpapp.service"
   }
 }
